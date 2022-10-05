@@ -28,4 +28,8 @@ button {
     padding: 10%;
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.8);
+    display: flexbox;
+    flex-direction: column;
+    border-radius: 50%;
+    border: 5px solid white;
 }
