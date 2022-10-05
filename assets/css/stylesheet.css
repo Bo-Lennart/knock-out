@@ -2,4 +2,12 @@
 
 body {
     font-family: 'VT323', monospace;
+    font-size: 40px;
+}
+
+button {
+    background-color: brown;
+    color: azure;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
 }
