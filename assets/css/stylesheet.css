@@ -2,6 +2,7 @@
 
 body {
     font-family: 'VT323', monospace;
+    font-size: 35px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -10,4 +11,37 @@ body {
 
 #gamePage {
     margin: 25%;
+    margin-top: 0;
+}
+
+
+button {
+    padding: 5%;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+}
+
+#rollDice {
+    width: 100px;
+    height: 100px;
+    margin: 10%;
+}
+
+#dices {
+    display: inline;
+}
+
+#dice_1 {
+    display: inline;
+    border: 5px solid black;
+    height: 80px;
+    width: 80px;
+    padding: 5%;
+}
+
+#dice_2 {
+    display: inline;
+    border: 5px solid black;
+    padding: 5%;
+    margin: 1%;
 }
