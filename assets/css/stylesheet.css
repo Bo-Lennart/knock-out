@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+html, body {
+    min-height: 100%;
+    background: url('../images/body_background.png') no-repeat center center;
+}
+
 body {
     font-family: 'VT323', monospace;
     font-size: 35px;
@@ -105,4 +110,35 @@ div {
 
 #score {
     font-size: 60px;
+}
+
+@media screen and (max-width: 800px) {
+
+    #gamePage {
+        width: 300px;
+    }
+
+    #buttons{
+        width: 300px;
+        padding: 0;
+        margin: 0;
+    }
+
+    button p {
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+    }
+
+    .nr_choice {
+        height: 60px;
+        width: 60px;
+    }
+
+    #dices_sum {
+        font-size: 30px;
+    }
+
+    #score {
+        font-size: 30px;
+    }
 }
