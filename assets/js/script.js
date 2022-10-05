@@ -51,7 +51,7 @@ function rollDice() {
     
     //skapar knapp för att börja om (refresh sida)
     var newGame = document.createElement("button");
-    newGame.innerHTML = "Börja Om";
+    newGame.innerHTML = "Play again!";
     var body = document.getElementById('body');
     body.appendChild(newGame);
     newGame.addEventListener('click', refreshPage);

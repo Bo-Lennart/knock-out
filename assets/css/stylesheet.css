@@ -11,10 +11,10 @@ body {
 
 #gamePage {
     margin: 25%;
-    margin-top: 5%;
+    margin-top: 0;
     height: 100%;
-    width: 100%;
-    background: url('../images/gamer_background.png') no-repeat center center;
+    width: 1000px;
+    background: url('../images/gamer_background.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -37,6 +37,8 @@ button {
     width: 600px;
     text-align: center;
     justify-content: center;
+    padding: auto;
+    margin: auto;
 }
 
 
@@ -48,6 +50,8 @@ button {
 
 #rollDice p {
     color: red;
+    font-size: 40px;
+    margin: 0;
 }
 
 .nr_choice {
@@ -79,6 +83,7 @@ div {
     height: 80px;
     width: 80px;
     padding: 5%;
+    margin-bottom: 10%;
 }
 
 #dice_2 {
@@ -86,4 +91,18 @@ div {
     border: 5px solid rgb(255, 0, 0);
     padding: 5%;
     margin: 1%;
+    margin-bottom: 10%;
+}
+
+#dices_sum {
+    font-size: 60px;
+}
+
+#dices_sum p {
+    padding-top: 10%;
+    height: 50px;
+}
+
+#score {
+    font-size: 60px;
 }
