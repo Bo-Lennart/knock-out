@@ -19,7 +19,6 @@ body {
     margin-top: 0;
     height: 100%;
     width: 1000px;
-    background: url('../images/gamer_background.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -33,7 +32,7 @@ button {
 .knockout_number {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(59, 59, 59, 0.7);
     margin: 0;
     padding: 0;
 }
