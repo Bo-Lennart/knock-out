@@ -6,10 +6,13 @@ body {
 }
 
 button {
+    justify-content: center;
+    text-align: center;
     background-color: brown;
     color: azure;
     font-family: 'VT323', monospace;
     font-size: 40px;
+    margin: 5%;
 }
 
 #background_img {
@@ -18,4 +21,11 @@ button {
     margin: 0% 20%;
     background: url('../images/gamer_background.png') no-repeat center center;
     background-size: cover;
+}
+
+.game_box {
+    margin: 20% 10%;
+    padding: 10%;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.8);
 }
