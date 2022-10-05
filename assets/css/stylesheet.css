@@ -11,8 +11,11 @@ button {
     background-color: brown;
     color: azure;
     font-family: 'VT323', monospace;
-    font-size: 40px;
+    font-size: 30px;
     margin: 5%;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 
 #background_img {
