@@ -1,39 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body {
-    height: 100%;
-    width: 100%%;
     font-family: 'VT323', monospace;
-    font-size: 40px;
-    justify-content: center;
-    background-color: rgb(127, 129, 255);
-    margin: 0 auto;
-}
-
-button {
-    justify-content: center;
+    display: flex;
     text-align: center;
-    background-color: brown;
-    color: azure;
-    font-family: 'VT323', monospace;
+    justify-content: center;
+    justify-items: center;
 }
 
-#background_img {
-    margin: 20%;
-    height: 600px;
-    width: 600px;
-    text-align: center;
-    display: inline-table;
-    background: url('../images/gamer_background.png') no-repeat center center;
-    background-size: cover;
-    border-radius: 50%;
-    border: solid 5px black;
-    color: rgb(127, 129, 255);
-}
-
-.game_box {
-    color: #FFFFFF;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 30%;
-    border: 3px solid white;
+#gamePage {
+    margin: 25%;
 }

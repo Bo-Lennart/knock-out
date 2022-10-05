@@ -6,55 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/stylesheet.css">
-    <title>Knock Out!</title>
+    <title>Document</title>
 </head>
 
-<body>
+<body id="body">
 
-    <body id="body">
-        <div id="background_img">
-            <div id="gamePage">
-                <div class="game_box">
-                    <p>Chose a Number: </p>
+    <div id="gamePage" class="">
+        <article class="knockout_number">
+            <p>Välj ett nummer: </p>
 
-                    <div id="buttons">
-                        <button id="button6" value="6">
-                            <p>6</p>
-                        </button>
+            <div id="buttons">
+                <button id="button6" value="6">
+                    <p>6</p>
+                </button>
 
-                        <button id="button7" value="7">
-                            <p>7</p>
-                        </button>
+                <button id="button7" value="7">
+                    <p>7</p>
+                </button>
 
-                        <button id="button8" value="8">
-                            <p>8</p>
-                        </button>
+                <button id="button8" value="8">
+                    <p>8</p>
+                </button>
 
-                        <button id="button9" value="9">
-                            <p>9</p>
+                <button id="button9" value="9">
+                    <p>9</p>
 
-                            <button disabled_id="rollDice">
-                                <p>Roll Dice!</p>
-                            </button>
-                        </button>
-                    </div>
-
-                    <div id="dices">
-                        <div id="dice_1"></div>
-                        <div id="dice_2"></div>
-                    </div>
-
-                    <p>Sum:</p>
-                    <div id="dices_sum"></div>
-
-                    <p>Score Board:</p>
-                    <div id="score"></div>
-
-                </div>
+                    <button disabled id="rollDice">
+                        <p>Roll Dice!</p>
+                    </button>
+                </button>
             </div>
-        </div>
 
-        <script src="./assets/js/script.js"></script>
-    </body>
+            <div id="dices">
+                <div id="dice_1"></div>
+                <div id="dice_2"></div>
+            </div>
+
+            <p>Summa:</p>
+            <div id="dices_sum"></div>
+
+            <p>Score Board:</p>
+            <div id="score"></div>
+
+
+        </article>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+
+
+
+</body>
 
 </html>
