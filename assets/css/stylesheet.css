@@ -11,3 +11,11 @@ button {
     font-family: 'VT323', monospace;
     font-size: 40px;
 }
+
+#background_img {
+    height: 100vh;
+    width: 60%;
+    margin: 0% 20%;
+    background: url('../images/gamer_background.png') no-repeat center center;
+    background-size: cover;
+}
